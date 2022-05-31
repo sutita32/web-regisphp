@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(..//img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Prompt', sans-serif;
+}
+
+.Content {
+    margin: 120px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.Content>a {
+    color: seashell;
+    font-size: 45px;
+    filter: opacity(70%);
+    text-decoration: none;
+}
+
+.Login_Space {
+    background-color: seashell;
+    filter: opacity(70%);
+    margin: 60px auto;
+    width: 40%;
+    border-radius: 20px;
+    padding: 2% 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.Login_Space .Form_Title {
+    color: sienna;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#Login_Form {
+    margin: 3% auto;
+}
+
+.Form_Area {
+    margin: 3% auto;
+}
+@media(max-width:600px){
+    .Content a{
+        display: none;
+    }
+    .Content{
+        padding: 28% 0px;
+    }
+    .Login_Space{
+        padding: 10% 10%;
+    }
+    
+}
